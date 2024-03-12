@@ -1,0 +1,29 @@
+/* styles.css o styles.scss */
+
+.main-footer {
+    background-color: #1c4a83;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer-section {
+    flex: 1;
+  }
+  
+  .footer-section p {
+    margin: 0;
+  }
+  
+  .social-icons a {
+    color: white;
+    margin-right: 10px;
+    font-size: 20px;
+  }
+  
+  .social-icons a:hover {
+    color: #3498db; /* Cambiar el color al pasar el ratón */
+  }
+  

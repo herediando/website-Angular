@@ -1,0 +1,162 @@
+<div >
+  <div class="image-container" [@fade]>
+    <img src="./assets/images/inicio01.jpg">
+    <div class="overlay">
+      <div fxLayout="row" fxLayoutAlign="center center">
+        <div>
+          <img src="./assets/images/logo1.png" class="logo-inicial">
+        </div>
+        <div class="text" [@fade]>
+          <span>Especialistas TI</span>
+          <br><span>Soluciones Integrales</span>
+        </div>
+      </div>
+      <div class="buttons">
+        <a href="./quienes-somos" class="button" [@fade]>Quienes Somos</a>
+        <a href="./servicios" class="button" [@fade]>Servicios</a>
+      </div>
+    </div>
+  </div>
+  <div class="circle-container" style="margin-top: 20px;" [@fade]>
+    <!-- Icono 1 -->
+    <div class="circle">
+      <mat-icon>desktop_mac</mat-icon>
+      <div class="title">Título 1</div>
+      <div class="description">Descripción 1</div>
+    </div>
+
+    <!-- Icono 2 -->
+    <div class="circle">
+      <mat-icon>highlight</mat-icon>
+      <div class="title">Título 2</div>
+      <div class="description">Descripción 2</div>
+    </div>
+
+    <!-- Icono 3 -->
+    <div class="circle">
+      <mat-icon>format_paint</mat-icon>
+      <div class="title">Título 3</div>
+      <div class="description">Descripción 3</div>
+    </div>
+  </div>
+
+  <div fxLayout="row" fxLayoutAlign="center center" class="statistics-section">
+    <div>
+      <h1>1250</h1>
+      <span>Fibras vendidas</span>
+    </div>
+    <div>
+      <h1>300</h1>
+      <span>PDUS</span>
+    </div>
+    <div>
+      <h1>500</h1>
+      <span>Racks Montados</span>
+    </div>
+    <div>
+      <h1>4500</h1>
+      <span>Kilómetros recorridos</span>
+    </div>
+  </div>
+  <div fxLayout="row" fxLayoutGap="5px" class="image-row">
+    <!-- Primera columna -->
+    <div fxFlex="33.3%" class="column">
+      <div class="image-wrapper" (click)="abrirImagen('./assets/images/inicio01.jpg')">
+        <img src="./assets/images/inicio01.jpg" alt="Imagen 1">
+      </div>
+      <div class="image-wrapper" (click)="abrirImagen('./assets/images/pri.jpg')">
+        <img src="./assets/images/pri.jpg" alt="Imagen 1">
+      </div>
+    </div>
+
+    <!-- Segunda columna -->
+    <div fxFlex="33.3%" class="column">
+      <div class="image-wrapper" (click)="abrirImagen('./assets/images/alarm-systems.jpeg')">
+        <img src="./assets/images/alarm-systems.jpeg" alt="Imagen 1">
+      </div>
+      <div class="image-wrapper" (click)="abrirImagen('./assets/images/R.jpeg')">
+        <img src="./assets/images/R.jpeg" alt="Imagen 1">
+      </div>  
+    </div>
+
+    <!-- Tercera columna -->
+    <div fxFlex="33.4%" class="column">
+      <div class="image-wrapper" (click)="abrirImagen('./assets/images/cctv-sistemas.jpg')">
+        <img src="./assets/images/cctv-sistemas.jpg" alt="Imagen 1">
+      </div>
+      <div class="image-wrapper" (click)="abrirImagen('./assets/images/rack-montaje.jpg')">
+        <img src="./assets/images/rack-montaje.jpg" alt="Imagen 1">
+      </div>
+    </div>
+  </div>
+   <!-- About-->
+   <section class="page-section" id="about">
+    <div class="container">
+        <div class="text-center">
+            <h2 class="section-heading text-uppercase">About</h2>
+            <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+        </div>
+        <ul class="timeline">
+            <li>
+                <div class="timeline-image"><img class="rounded-circle img-fluid" src="./assets/images/about/1.jpg" alt="..." /></div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h4>2009-2011</h4>
+                        <h4 class="subheading">Our Humble Beginnings</h4>
+                    </div>
+                    <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
+                </div>
+            </li>
+            <li class="timeline-inverted">
+                <div class="timeline-image"><img class="rounded-circle img-fluid" src="./assets/images/about/2.jpg" alt="..." /></div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h4>March 2011</h4>
+                        <h4 class="subheading">An Agency is Born</h4>
+                    </div>
+                    <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
+                </div>
+            </li>
+            <li>
+                <div class="timeline-image"><img class="rounded-circle img-fluid" src="./assets/images/about/3.jpg" alt="..." /></div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h4>December 2015</h4>
+                        <h4 class="subheading">Transition to Full Service</h4>
+                    </div>
+                    <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
+                </div>
+            </li>
+            <li class="timeline-inverted">
+                <div class="timeline-image"><img class="rounded-circle img-fluid" src="./assets/images/about/4.jpg" alt="..." /></div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h4>July 2020</h4>
+                        <h4 class="subheading">Phase Two Expansion</h4>
+                    </div>
+                    <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
+                </div>
+            </li>
+            <li class="timeline-inverted">
+                <div class="timeline-image">
+                    <h4>
+                        Sé parte
+                        <br />
+                        De nuestra
+                        <br />
+                        Historia!
+                    </h4>
+                </div>
+            </li>
+        </ul>
+    </div>
+</section>
+<!-- Team-->
+  <div fxLayout="row" fxLayoutAlign="center center" class="statistics-section">
+    <div>
+      <h1><mat-icon>touch_app</mat-icon></h1>
+      <span>Mantengamos el contacto</span>
+      <button mat-button>Contactanos</button>
+    </div>
+  </div>
+</div>

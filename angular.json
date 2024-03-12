@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "congathi-solutions": {
+    "cognathi-solutions": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,8 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/congathi-solutions",
+            "baseHref": "/",
+            "outputPath": "cognathi-solutions",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -34,7 +35,7 @@
               "budgets": [
                 {
                   "type": "initial",
-                  "maximumWarning": "500kb",
+                  "maximumWarning": "5000kb",
                   "maximumError": "1mb"
                 },
                 {
@@ -60,10 +61,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "congathi-solutions:build:production"
+              "browserTarget": "cognathi-solutions:build:production"
             },
             "development": {
-              "browserTarget": "congathi-solutions:build:development"
+              "browserTarget": "cognathi-solutions:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -71,7 +72,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "congathi-solutions:build"
+            "browserTarget": "cognathi-solutions:build"
           }
         },
         "test": {
@@ -94,5 +95,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "ffc35669-50e9-4087-9fda-578069dcbc57"
   }
 }

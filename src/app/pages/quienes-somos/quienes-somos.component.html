@@ -1,1 +1,44 @@
-<p>quienes-somos works!</p>
+<!-- app.component.html -->
+<div class="container-fluid">
+    <div [@fadeAnimation]="'in'">
+      <!-- Sección Nosotros -->
+      <section id="nosotros" class="section row vh-100" (window:scroll)="onScroll($event)">
+        <div class="col-md-6">
+          <!-- Contenido de la sección Nosotros -->
+        </div>
+        <div class="col-md-6">
+          <img src="./assets/images/servicios.jpg" alt="" class="img-fluid">
+        </div>
+      </section>
+  
+      <!-- Sección Servicios -->
+      <section id="servicios" class="section row vh-100" (window:scroll)="onScroll($event)">
+        <div class="col-md-4">
+          <!-- Contenido de la sección Servicios -->
+        </div>
+        <div class="col-md-4">
+          <!-- Contenido de la sección Servicios -->
+        </div>
+        <div class="col-md-4">
+          <!-- Contenido de la sección Servicios -->
+        </div>
+      </section>
+  
+      <!-- Sección Ofertas -->
+      <section id="ofertas" class="section row vh-100" (window:scroll)="onScroll($event)">
+        <div class="col-md-6">
+          <!-- Contenido de la sección Ofertas -->
+        </div>
+        <div class="col-md-6">
+          <img src="./assets/images/359361735_101415203026602_2245449723496330869_n.png" alt="" class="img-fluid">
+        </div>
+      </section>
+  
+      <!-- Sección Contacto -->
+      <section id="contacto" class="section row vh-100" (window:scroll)="onScroll($event)">
+        <div class="col-md-6 offset-md-3 text-center">
+          <!-- Contenido de la sección Contacto -->
+        </div>
+      </section>
+    </div>
+  </div>

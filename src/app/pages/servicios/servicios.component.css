@@ -19,7 +19,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* Color negro con 50% de opacidad */
+    background-color: rgba(0, 0, 0, 0.5);
     z-index: 2;
   }
   .circle-container {
@@ -37,7 +37,7 @@
 
 .circle mat-icon {
   font-size: 36px;
-  background-color: #6dadd8; /* Puedes ajustar el color de fondo según tus preferencias */
+  background-color: #005a92; /* Puedes ajustar el color de fondo según tus preferencias */
   color: white;
   border-radius: 50%;
   padding: 50px; /* Ajusta el relleno según tus preferencias */

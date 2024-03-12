@@ -1,29 +1,39 @@
-.main-header {
-    display: flex;
-    align-items: center;
-    padding: 20px;
-    background-color: #bdbdbd;
-  }
-  
-  .logo-container {
-    margin-right: 20px;
-    padding-left: 100px;
-  }
-  
-  .logo {
-    width: 90px;
-    /* height: 50px; */
+header {
+  background-color: transparent;
+  transition: background-color 0.3s ease-in-out;
+}
 
-    overflow: hidden;
-  }
-  
-  .logo img {
-    width: 100%;
-    height: auto;
-  }
-  
-  .title-container h1 {
-    margin: 0;
-    color: white;
-  }
-  
+header.fixed {
+  background-color: #ffffff; /* Cambia el color de fondo cuando el header está fijo */
+}
+
+header.scrolled {
+  background-color: #ffffff; /* Cambia el color de fondo cuando se desplaza */
+}
+header.navbar-light {
+  background-color: #ffffff00; /* Color de fondo cuando está en la parte superior */
+}
+
+header.navbar-dark {
+  background-color: #666666; /* Color de fondo cuando se desplaza */
+}
+
+.logo {
+  width: 90px; /* Ajusta el tamaño del logo según sea necesario */
+}
+
+.navbar-toggler {
+  border: none; /* Elimina el borde del botón toggler */
+}
+
+.navbar-nav .nav-item {
+  margin-left: 10px; /* Ajusta el espacio entre elementos del menú */
+}
+
+.navbar-nav .nav-link {
+  color: #ffffff; /* Cambia el color de los enlaces del menú */
+}
+
+.navbar-nav .nav-link:hover {
+  color: #5c9257; 
+}
